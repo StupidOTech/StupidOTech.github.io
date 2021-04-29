@@ -1,0 +1,29 @@
+<html>
+
+<head>
+<title>Välkommen</title>
+</head>
+<body>
+
+<h1 style="color: #b76e79;">Detta &auml;r <span style="color: #2b2301;">StupidO</span>!</h1>
+<p><span style="background-color: #cfb53b; color: black; display: inline-block; padding: 3px 10px; font-weight: bold; border-radius: 5px;"> I am the the master of nothing but near perfect</span></p>
+<h2 style="color: #b76e79;">A few useful things to know about me:</h2>
+<ol style="list-style: none; font-size: 14px; line-height: 32px; font-weight: bold;">
+<li style="clear: both; color: #b76e79;">*I will help you achive your desires</li>
+</ol>
+<table class="editorDemoTable">
+<thead>
+<tr>
+<td style="color: #cfb53b;">What I offer</td>
+<td style="color: #c0c0c0;">Price</td>
+<td style="color: #cd7f32;">Y</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="color: #b76e79;">Sexy Time</td>
+<td style="color: #b76e79;">Except <strong>IF</strong> <em>not</em> <strong>healthy</strong></td>
+
+</body>
+
+</html>
