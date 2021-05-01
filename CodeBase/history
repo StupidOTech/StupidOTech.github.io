@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Historia</title>
+    <link rel="stylesheet" href="farger.css">
+</head>
+<body>
+    
+        <div class="Title">
+            <b>WoW historia:</b> <br />
+        </div>
+        <div class="About_Text">
+            <b>Max level</b> <i>priest</i> after I made a <i>half</i> a priest.<br />
+            You will learn the diffrence between life and death if you play a priest.<br />
+            All your friends will either hate or love you
+        </div>
+        
+        <div class="WhatIsNeeded">
+            <h1>A good Priest</h1>
+
+            <ul>
+                <li>Let you live</li>
+                <li>Let you die</li>
+                <li>Ace All</li>
+            </ul>
+            <ol>
+                <li>Is legendary to you</li>
+            </ol>
+        </div>
+   
+</body>
+</html>
