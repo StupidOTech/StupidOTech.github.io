@@ -1,15 +1,21 @@
-﻿/* Master Styles*/
+/* Master Styles*/
 
 
 body {
     margin: 0px;
+    padding-left: 50px;
+    padding-bottom: 50px;
 }
 
-.container{
+.container {
     display: grid;
     grid-template-columns: 1fr;
+    background-image: url('images/HeaderBackground.jpg');
+    background-repeat: no-repeat;
 }
-
+.WhatIsNeeded {
+    color: #cfb53b;
+}
 .Main-Content-Wrapping {
     padding: 1px;
 }
@@ -42,6 +48,9 @@ padding: 50px;
         font-size: .69em;
    
         }
+.right-side {
+    color: #b76e79;
+}
 .nav-link-wrapping {
     height: 22px;
     border-bottom: 1px solid transparent;
@@ -59,3 +68,12 @@ padding: 50px;
         color: black;
     }
 
+.Title {
+    color: #cfb53b;
+}
+.About_Text{
+    color:mistyrose;
+}
+.WhatIsNeeded {
+  
+}
