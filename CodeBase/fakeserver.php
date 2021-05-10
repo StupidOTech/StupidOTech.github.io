@@ -2,7 +2,7 @@
 <html>
 <body>
 
-Welcome <?php echo $_POST["name"]; ?><br>
-This should be hidden: <?php echo $_POST["email"]; ?>
+Welcome <?php echo $_GET["name"]; ?><br>
+This should be hidden: <?php echo $_GET["email"]; ?>
 </body>
 </html>
