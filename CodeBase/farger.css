@@ -1,0 +1,131 @@
+﻿/* Master Styles*/
+
+.Top_Header {
+    text-align: center;
+    color: #cfb53b;
+}
+    .Top_Header > .paragraph {
+        text-align: center;
+        color: black;
+    }
+
+body {
+    margin: 0px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+
+
+.container_BG {
+    background-image: url("images/HeaderBackground.jpg");
+    min-height: 42px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.container {
+    position: absolute;
+    margin: 20px;
+    width: auto;
+}
+.nav-wrapping {
+    overflow: hidden;
+}
+    .nav-wrapping a {
+        color: #cfb53b;
+        text-align: center;
+        font-size: 17px;
+    }
+        .nav-wrapping a:hover {
+            color: black;
+        }
+
+.Main-Content-Wrapping {
+    padding: 1px;
+    color: #b76e79;
+
+}
+    .Main-Content-Wrapping > .Main-Content-Wrapping_question
+    {
+        text-decoration: none;
+        color: transparent;
+    }
+        .Main-Content-Wrapping > .Main-Content-Wrapping_question:hover {
+            color: #cfb53b;
+        }
+
+  
+
+
+.WhatIsNeeded {
+    color: #cfb53b;
+}
+
+.Master {
+    background-color: #cfb53b;
+    color: black;
+    display: inline-block;
+    padding: 3px 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: #cfb53b;
+    position: absolute;
+    top: 96%;
+    left: 69%;
+    
+}
+.Button {
+    color: #cfb53b;
+    background-color: white;
+    border-color: white;
+}
+
+
+.Title {
+    color: #cfb53b;
+}
+.About_Text{
+    color:mistyrose;
+}
+.WhatIsNeeded {
+  
+}
+.about_body {
+    color: #cfb53b;
+}
+.about_list{
+    text-align: center;
+    list-style-position: inside;
+}
+.whoareyou{
+    font-size:24px;
+}
+
+/*
+    .nav-wrapping {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.nav-link-wrapping {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+    .nav-link-wrapping a {
+        color: #cfb53b;
+        text-decoration: none;
+        transition: color 0.5s;
+    }
+
+    .nav-link-wrapping:hover {
+        border-bottom: 1px solid black;
+    }
+
+    .nav-link-wrapping a:hover {
+        color: black;
+    }
+
+*/

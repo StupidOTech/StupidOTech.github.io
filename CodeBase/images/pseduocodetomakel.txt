@@ -1,0 +1,7 @@
+Make it so that you can choose one or more of the alternatives in the paragh (mark the pargrah with ID's and shit)
+
+
+If they are marked and user push button. Make things depending on what they chose:
+If null. Return an error and ban current IP from using the site for 24h.
+
+
