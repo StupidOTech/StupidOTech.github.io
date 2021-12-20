@@ -109,7 +109,8 @@ section.hero{
     .butt-valk{
         color: black;
         border: none;
-        background: url('/images/välkommen.jpg') no-repeat top left;
+        background-color: var(--primary-color);
+        //background: url('/images/välkommen.jpg') no-repeat top left;
         height: 20px;
         width: 115px;
         margin-top: 25px;
@@ -118,9 +119,9 @@ section.hero{
         
         
         &:hover{
-            transition: 1s;
-      
-            background: url('/images/välkomment.jpg') no-repeat top left;
+            transition: 2s;
+            background-color: var(--secondary-color);
+            //background: url('/images/välkomment.jpg') no-repeat top left;
         }
     }
     .container{
