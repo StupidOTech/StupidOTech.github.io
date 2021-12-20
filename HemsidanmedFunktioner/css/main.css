@@ -1,0 +1,810 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+:root {
+  --primary-color: #cfb53b;
+  --secondary-color: #b76e79;
+  --thirth-color: #f0ead6;
+  --fourth-color: burlywood;
+}
+
+body {
+  display: block;
+  background: var(--thirth-color);
+  color: var(--primary-color);
+  margin: 0 0 0 1.34em;
+  font-family: 'Poppins';
+}
+
+body span {
+  color: var(--secondary-color);
+}
+
+.navbar {
+  /* .img-default{
+         width: 50px;
+         height: 50px;
+     }*/
+  font-size: 1.34em;
+}
+
+.navbar .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: black;
+}
+
+.navbar .container .logo {
+  position: relative;
+  cursor: pointer;
+}
+
+.navbar .container .logo li {
+  list-style: none;
+}
+
+.navbar .container .logo span:hover {
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.navbar .container .logo:hover {
+  font-weight: bold;
+}
+
+.navbar .container .left {
+  display: none;
+  position: relative;
+  right: 100%;
+}
+
+.navbar .container .right {
+  display: none;
+  position: relative;
+  right: 0;
+  margin: 0 25px 0 -25px;
+}
+
+.navbar .container nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  right: 0;
+}
+
+.navbar .container nav li {
+  list-style: none;
+  margin: 0 25px 0 0;
+}
+
+.navbar .container nav li:hover {
+  font-weight: bold;
+}
+
+.navbar .container a {
+  text-decoration: none;
+  color: var(--fourth-color);
+}
+
+#fo:hover ~ #ef {
+  -webkit-transition: 5s;
+  transition: 5s;
+  text-decoration: underline;
+  opacity: 100%;
+}
+
+#gz:hover ~ #ba {
+  -webkit-transition: 5s;
+  transition: 5s;
+  text-decoration: underline;
+  opacity: 100%;
+}
+
+#f2:hover ~ #ty {
+  -webkit-transition: 5s;
+  transition: 5s;
+  text-decoration: line-through;
+  opacity: 100%;
+}
+
+#sv:hover ~ #alr {
+  -webkit-transition: 5s;
+  transition: 5s;
+  opacity: 100%;
+  color: var(--secondary-color);
+}
+
+section.hero {
+  display: none;
+  height: 340px;
+  color: var(--primary-color);
+  font-size: 1.5em;
+}
+
+section.hero span {
+  color: black;
+}
+
+section.hero span:hover {
+  font-weight: bold;
+}
+
+section.hero .butt-valk {
+  color: black;
+  border: none;
+  background: url("/images/välkommen.jpg") no-repeat top left;
+  height: 20px;
+  width: 115px;
+  margin-top: 25px;
+  margin-bottom: -25px;
+  position: relative;
+}
+
+section.hero .butt-valk:hover {
+  -webkit-transition: 1s;
+  transition: 1s;
+  background: url("/images/välkomment.jpg") no-repeat top left;
+}
+
+section.hero .container {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+section.hero .container .hidethesecl {
+  display: none;
+}
+
+section.hero .container .hidethesecl .nvar {
+  display: block;
+  position: absolute;
+  left: 20px;
+  top: 80px;
+}
+
+section.hero .container .hidethesecl .awdd {
+  display: block;
+  position: absolute;
+  margin-left: 20px;
+  top: 80px;
+  opacity: 0%;
+}
+
+section.hero .container .hidethesec2 {
+  display: none;
+}
+
+section.hero .container .hidethesec2 .intre {
+  display: block;
+  position: absolute;
+  left: 20px;
+  top: 120px;
+}
+
+section.hero .container .hidethesec2 .arkite {
+  display: block;
+  position: absolute;
+  margin-left: 20px;
+  top: 120px;
+  opacity: 0%;
+}
+
+section.hero .container .hidethesec3 {
+  display: none;
+}
+
+section.hero .container .hidethesec3 .ödmjuki {
+  display: block;
+  position: absolute;
+  left: 20px;
+  top: 160px;
+}
+
+section.hero .container .hidethesec3 .misstagi {
+  display: block;
+  position: absolute;
+  margin-left: 20px;
+  top: 160px;
+  opacity: 0%;
+}
+
+section.hero .container .hidethesec4 {
+  display: none;
+}
+
+section.hero .container .hidethesec4 .answer {
+  display: block;
+  position: absolute;
+  left: 20px;
+  top: 200px;
+}
+
+section.hero .container .hidethesec4 .arli {
+  display: block;
+  position: absolute;
+  margin-left: 20px;
+  top: 200px;
+  opacity: 0%;
+}
+
+section.hero .container .hidethesec4 .arli:hover {
+  -webkit-transition: 3s;
+  transition: 3s;
+  color: var(--secondary-color);
+}
+
+section.hero .container .hero-img {
+  display: none;
+  position: absolute;
+  height: 30%;
+  width: 30%;
+  right: 0;
+  opacity: 5%;
+}
+
+section.hero .container .hero-img:hover {
+  -webkit-transition: 3.14s;
+  transition: 3.14s;
+  opacity: 100%;
+}
+
+section.hero .passcheck {
+  border-color: whitesmoke;
+  color: var(--secondary-color);
+  position: absolute;
+  right: 198px;
+  top: 360px;
+  display: none;
+}
+
+section.hero .butt-passcheck {
+  position: absolute;
+  right: 135px;
+  top: 359px;
+  width: 25px;
+  height: 25px;
+  background-color: var(--secondary-color);
+  border-radius: 50%;
+  display: none;
+}
+
+section.hero h1 {
+  color: Black;
+}
+
+section.hero h1:hover {
+  -webkit-transition: 1s;
+  transition: 1s;
+  color: white;
+}
+
+#a:hover ~ #b {
+  -webkit-transition: 2s;
+  transition: 2s;
+  background: var(--secondary-color);
+}
+
+#c:hover ~ #d {
+  -webkit-transition: 2s;
+  transition: 2s;
+  background: purple;
+}
+
+#e:hover ~ #f {
+  -webkit-transition: 2s;
+  transition: 2s;
+  background: blue;
+}
+
+#g:hover ~ #h {
+  -webkit-transition: 2s;
+  transition: 2s;
+  background: darkcyan;
+}
+
+#i:hover ~ #j {
+  -webkit-transition: 2s;
+  transition: 2s;
+  background: red;
+}
+
+#k:hover ~ #l {
+  -webkit-transition: 2s;
+  transition: 2s;
+  background: black;
+}
+
+.Tooltip {
+  position: flex;
+  display: block;
+}
+
+.Tooltip .engaTooltext {
+  visibility: hidden;
+  width: 120px;
+  background-color: var(--thirth-color);
+  color: burlywood;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 480px;
+  left: 600px;
+}
+
+.Tooltip:hover .engaTooltext {
+  visibility: visible;
+}
+
+cite:hover {
+  color: blue;
+}
+
+/*
+#AB:hover ~ #BA{
+    transition: 2s;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+#AB:hover ~ #BC{
+    transition: 2s;
+    transition-delay: 1s;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+#AB:hover ~ #q3{
+    transition: 2s;
+    transition-delay: 2s;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+#AB:hover ~ #q4{
+    transition: 2s;
+    transition-delay: 3s;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+#AB:hover ~ #q5{
+    transition: 2s;
+    transition-delay: 4s;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+#AB:hover ~ #q6{
+    transition: 2s;
+    transition-delay: 5s;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+#AB:hover ~ #q7{
+    transition: 2s;
+    transition-delay: 6s;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+#AB:hover ~ #q8{
+    transition: 2s;
+    transition-delay: 7s;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+#AB:hover ~ #q9{
+    transition: 2s;
+    transition-delay: 8s;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+#AB:hover ~ #q10{
+    transition: 2s;
+    transition-delay: 9s;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+#AB:hover ~ #q11{
+    transition: 2s;
+    transition-delay: 10s;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+#AB:hover ~ #q12{
+    transition: 2s;
+    transition-delay: 11s;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+#AB:hover ~ #q13{
+    transition: 2s;
+    transition-delay: 12s;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+*/
+blockquote .q1 {
+  color: white;
+}
+
+blockquote .q1:hover {
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+  color: var(--secondary-color);
+  font-weight: bold;
+}
+
+blockquote .q2 {
+  color: white;
+}
+
+blockquote .q2:hover {
+  -webkit-transition-delay: 1.5s;
+          transition-delay: 1.5s;
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+  color: var(--secondary-color);
+  font-weight: bold;
+}
+
+blockquote .q3 {
+  color: black;
+}
+
+blockquote .q4 {
+  color: black;
+}
+
+blockquote .q5 {
+  color: black;
+}
+
+blockquote .q6 {
+  color: black;
+}
+
+blockquote .q7 {
+  color: black;
+}
+
+blockquote .q8 {
+  color: black;
+}
+
+blockquote .q9 {
+  color: black;
+}
+
+blockquote .q10 {
+  color: black;
+}
+
+blockquote .q11 {
+  color: black;
+}
+
+blockquote .q12 {
+  color: black;
+}
+
+blockquote .q13 {
+  color: black;
+}
+
+section.thesix {
+  display: none;
+  background-color: whitesmoke;
+  height: 150px;
+}
+
+section.thesix .stylethishoe {
+  background-color: black;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  position: absolute;
+  left: 100px;
+  top: 300px;
+}
+
+section.thesix .square {
+  display: block;
+  position: absolute;
+  height: 150px;
+  width: 75px;
+  margin-left: 3.14px;
+  border-bottom-left-radius: 90%;
+  border-top-right-radius: 90%;
+  background-color: var(--primary-color);
+}
+
+section.thesix .square .circle {
+  display: block;
+  position: absolute;
+  left: 3.34px;
+  top: 1.34px;
+  height: 9px;
+  width: 9px;
+  background-color: whitesmoke;
+  border-radius: 50%;
+}
+
+section.thesix .square .circle2 {
+  display: block;
+  position: absolute;
+  left: 16.34px;
+  top: 37px;
+  height: 9px;
+  width: 9px;
+  background-color: whitesmoke;
+  border-radius: 50%;
+}
+
+section.thesix .square .circle3 {
+  display: block;
+  position: absolute;
+  left: 55.34px;
+  top: 80.34px;
+  height: 9px;
+  width: 9px;
+  background-color: whitesmoke;
+  border-radius: 50%;
+}
+
+section.thesix .square .circle4 {
+  display: block;
+  position: absolute;
+  left: 22.34px;
+  top: 80.34px;
+  height: 9px;
+  width: 9px;
+  background-color: whitesmoke;
+  border-radius: 50%;
+}
+
+section.thesix .square .circle5 {
+  display: block;
+  position: absolute;
+  left: 45.34px;
+  top: 45.34px;
+  height: 9px;
+  width: 9px;
+  background-color: whitesmoke;
+  border-radius: 50%;
+}
+
+section.thesix .square .circle6 {
+  display: block;
+  position: absolute;
+  left: 60px;
+  top: 134px;
+  height: 9px;
+  width: 9px;
+  background-color: whitesmoke;
+  border-radius: 50%;
+}
+
+section.thesix ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+section.thesix ul .buttontoClick {
+  display: block;
+  background-color: whitesmoke;
+  border: none;
+  position: absolute;
+  height: 9px;
+  width: 9px;
+  border-radius: 50%;
+  margin: 0;
+  padding: 0;
+  left: 4.5em;
+}
+
+section.thesix ul .buttontoClick2 {
+  display: block;
+  background-color: whitesmoke;
+  border: none;
+  position: absolute;
+  height: 9px;
+  width: 9px;
+  border-radius: 50%;
+  margin: 0;
+  padding: 0;
+  left: 2.5em;
+}
+
+section.thesix ul .buttontoClick5 {
+  display: block;
+  background-color: whitesmoke;
+  border: none;
+  position: absolute;
+  height: 9px;
+  width: 9px;
+  border-radius: 50%;
+  top: 510px;
+  padding: 0;
+  left: 4.2em;
+}
+
+section.thesix ul .buttontoClick4 {
+  display: block;
+  background-color: whitesmoke;
+  border: none;
+  position: absolute;
+  height: 9px;
+  width: 9px;
+  border-radius: 50%;
+  margin: 0;
+  padding: 0;
+  top: 510px;
+  left: 6.3em;
+}
+
+section.thesix ul .buttontoClick7 {
+  display: block;
+  background-color: whitesmoke;
+  border: none;
+  position: absolute;
+  height: 9px;
+  width: 9px;
+  border-radius: 50%;
+  margin: 0;
+  padding: 0;
+  top: 440px;
+  left: 3.7em;
+}
+
+section.thesix ul .buttontoClick55 {
+  display: block;
+  background-color: whitesmoke;
+  border: none;
+  position: absolute;
+  height: 9px;
+  width: 9px;
+  border-radius: 50%;
+  margin: 0;
+  padding: 0;
+  top: 400px;
+  left: 3.7em;
+}
+
+section.thesix ul .li {
+  display: block;
+  color: var(--primary-color);
+}
+
+section.thesix ul li:before {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-image: url("../images/Checkmark.jpg");
+  background-size: contain;
+  border-radius: 50%;
+  margin-top: 3.14px;
+  margin-left: -1.5em;
+}
+
+section.thesix ul li:hover {
+  font-weight: bold;
+}
+
+section.citat {
+  display: none;
+}
+
+section.citat img {
+  width: 5em;
+  height: 7em;
+  border: 5px solid var(--thirth-color);
+  border-radius: 50%;
+  margin-top: -3.14em;
+}
+
+section.citat img:hover {
+  -webkit-transition-delay: 1s;
+          transition-delay: 1s;
+  border: 5px solid var(--secondary-color);
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+}
+
+section.citat li {
+  list-style-type: none;
+  background: var(--primary-color);
+  color: whitesmoke;
+  text-align: center;
+  padding: 2em 1em;
+  width: 80%;
+  margin: 0 auto 0 auto;
+  border-radius: 1em;
+}
+
+#stairspic:hover ~ #couchpic {
+  -webkit-transition: 5s;
+  transition: 5s;
+  width: 550px;
+  height: 330px;
+}
+
+#couchpic:hover ~ #stairspic2 {
+  -webkit-transition: 5s;
+  transition: 5s;
+  visibility: visible;
+  width: 550px;
+  height: 330px;
+}
+
+section.trappasta {
+  display: none;
+}
+
+section.trappasta .couch {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: 1%;
+}
+
+section.trappasta .stairs {
+  width: 50px;
+  height: 50px;
+  position: relative;
+}
+
+section.trappasta .stairs2 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 20px;
+  visibility: hidden;
+}
+
+section.contact {
+  display: none;
+  position: absolute;
+  text-align: center;
+  width: 450px;
+  height: 300px;
+  left: 35%;
+  top: 800px;
+}
+
+section.contact h1 {
+  color: var(--primary-color);
+}
+
+section.contact h1:hover {
+  color: var(--thirth-color);
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+section.contact label {
+  display: block;
+}
+
+section.contact input, section.contact textarea {
+  color: var(--primary-color);
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 5px solid black;
+}
+
+section.contact input[type="submit"] {
+  color: green;
+  background-color: black;
+  border: none;
+  cursor: pointer;
+}
+
+.ending {
+  background-color: black;
+  color: var(--fourth-color);
+}
+/*# sourceMappingURL=main.css.map */
