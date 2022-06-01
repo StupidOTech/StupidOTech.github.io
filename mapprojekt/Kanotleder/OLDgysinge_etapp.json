@@ -1,0 +1,235 @@
+{
+    "post":[
+		 {
+            "namn": "Gysinge",
+            "latitude":"60.287094",
+            "longitude":"16.885128"
+        },
+      	 {
+            "namn": "1",
+            "latitude":"60.287355",
+            "longitude":"16.887008"
+        },
+		 {
+            "namn": "2",
+            "latitude":"60.284854",
+            "longitude":"16.891413"
+        },
+		 {
+            "namn": "3",
+            "latitude":"60.282918",
+            "longitude":"16.889675"
+        },
+		 {
+            "namn": "4",
+            "latitude":"60.284480",
+            "longitude":"16.881467"
+        },
+		 {
+            "namn": "5",
+            "latitude":"60.285885",
+            "longitude":"16.873072"
+        },
+		 {
+            "namn": "6",
+            "latitude":"60.286985",
+            "longitude":"16.870232"
+        },
+		 {
+            "namn": "7",
+            "latitude":"60.287081",
+            "longitude":"16.863817"
+        },
+		 {
+            "namn": "8",
+            "latitude":"60.285624",
+            "longitude":"16.858366"
+        },
+		 {
+            "namn": "9",
+            "latitude":"60.287581",
+            "longitude":"16.850813"
+        },
+		 {
+            "namn": "10",
+            "latitude":"60.284411",
+            "longitude":"16.845063"
+        },
+		 {
+            "namn": "11",
+            "latitude":"60.279905",
+            "longitude":"16.839919"
+        },
+		 {
+            "namn": "12",
+            "latitude":"60.275969",
+            "longitude":"16.841464"
+        },
+		 {
+            "namn": "13",
+            "latitude":"60.272181",
+            "longitude":"16.836872"
+        },
+		 {
+            "namn": "14",
+            "latitude":"60.271053",
+            "longitude":"16.831765"
+        },
+		 {
+            "namn": "15",
+            "latitude":"60.265264",
+            "longitude":"16.831937"
+        },
+		 {
+            "namn": "16",
+            "latitude":"60.261847",
+            "longitude":"16.836185"
+        },
+		
+		 {
+            "namn": "Gärdsvekarna",
+            "latitude":"60.261745",
+            "longitude":"16.836784"
+        },
+		 {
+            "namn": "1",
+            "latitude":"60.261727",
+            "longitude":"16.831240"
+        },
+		 {
+            "namn": "2",
+            "latitude":"60.260013",
+            "longitude":"16.821821"
+        },
+		 {
+            "namn": "3",
+            "latitude":"60.258544",
+            "longitude":"16.816306"
+        },
+		 {
+            "namn": "4",
+            "latitude":"60.257942",
+            "longitude":"16.815091"
+        },
+		{
+            "namn": "5",
+            "latitude":"60.254328",
+            "longitude":"16.812613"
+        },
+		{
+            "namn": "6",
+            "latitude":"60.252127",
+            "longitude":"16.810074"
+        },
+		{
+            "namn": "7",
+            "latitude":"60.254360",
+            "longitude":"16.805861"
+        },
+		{
+            "namn": "8",
+            "latitude":"60.253711",
+            "longitude":"16.796951"
+        },
+		 {
+            "namn": "Ista",
+            "latitude":"60.253702",
+            "longitude":"16.794437"
+        },
+		{
+            "namn": "1",
+            "latitude":"60.256627",
+            "longitude":"16.799682"
+        },
+		 {
+            "namn": "Karlholm",
+            "latitude":"60.262240",
+            "longitude":"16.808814"
+        },
+		{
+            "namn": "1",
+            "latitude":"60.262782",
+            "longitude":"16.809295"
+        },
+		{
+            "namn": "2",
+            "latitude":"60.265938",
+            "longitude":"16.807332"
+        },
+		{
+            "namn": "3",
+            "latitude":"60.269900",
+            "longitude":"16.807669"
+        },
+		{
+            "namn": "4",
+            "latitude":"60.275859",
+            "longitude":"16.808227"
+        },
+		{
+            "namn": "5",
+            "latitude":"60.278103",
+            "longitude":"16.810437"
+        },
+		 {
+            "namn": "Edsviken",
+            "latitude":"60.281196",
+            "longitude":"16.805992"
+        },
+		{
+            "namn": "1",
+            "latitude":"60.281246",
+            "longitude":"16.823704"
+        },
+		{
+            "namn": "2",
+            "latitude":"60.281480",
+            "longitude":"16.832094"
+        },
+		{
+            "namn": "3",
+            "latitude":"60.285676",
+            "longitude":"16.839817"
+        },
+		{
+            "namn": "4",
+            "latitude":"60.289904",
+            "longitude":"16.852007"
+        },
+		{
+            "namn": "5",
+            "latitude":"60.290583",
+            "longitude":"16.861207"
+        },
+		{
+            "namn": "6",
+            "latitude":"60.288934",
+            "longitude":"16.871699"
+        },
+		{
+            "namn": "7",
+            "latitude":"60.289105",
+            "longitude":"16.875819"
+        },
+		{
+            "namn": "8",
+            "latitude":"60.289807",
+            "longitude":"16.878995"
+        },
+		{
+            "namn": "9",
+            "latitude":"60.288058",
+            "longitude":"16.879624"
+        },
+		{
+            "namn": "10",
+            "latitude":"60.286989",
+            "longitude":"16.879237"
+        },
+		 {
+            "namn": "Café udden",
+            "latitude":"60.286982",
+            "longitude":"16.880171"
+        }
+    ]
+}

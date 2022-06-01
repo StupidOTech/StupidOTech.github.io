@@ -1,0 +1,111 @@
+
+
+{
+    "post":[
+			{
+            "namn": "Sandön",
+            "latitude":"60.209724",
+            "longitude":"16.788910"
+        },
+			{
+            "namn": "1",
+            "latitude":"60.211851",
+            "longitude":"16.787711"
+        },
+			{
+            "namn": "1",
+            "latitude":"60.215960",
+            "longitude":"16.797903"
+        },
+
+			{
+            "namn": "1",
+            "latitude":"60.216171",
+            "longitude":"16.797817"
+        },
+
+			{
+            "namn": "Strångnäs",
+            "latitude":"60.216802",
+            "longitude":"16.796916"
+        },
+
+			{
+            "namn": "1",
+            "latitude":"60.216207",
+            "longitude":"16.798191"
+        },
+
+			{
+            "namn": "1",
+            "latitude":"60.214935",
+            "longitude":"16.802581"
+        },
+
+			{
+            "namn": "1",
+            "latitude":"60.218573",
+            "longitude":"16.840605"
+        },
+
+		{
+            "namn": "1",
+            "latitude":"60.219702",
+            "longitude":"16.842537"
+        },
+
+		  {
+            "namn": "Brattnäset",
+            "latitude":"60.219227",
+            "longitude":"16.847813"
+        },
+
+			{
+            "namn": "Skekarsbo",
+            "latitude":"60.212219",
+            "longitude":"16.849755"
+        },
+
+			{
+            "namn": "1",
+            "latitude":"60.213933",
+            "longitude":"16.841033"
+        },
+
+			{
+            "namn": "1",
+            "latitude":"60.211844",
+            "longitude":"16.813778"
+        },
+
+			{
+            "namn": "1",
+            "latitude":"60.209162",
+            "longitude":"16.797395"
+        },
+
+			{
+            "namn": "1",
+            "latitude":"60.205272",
+            "longitude":"16.786521"
+        },
+
+			{
+            "namn": "1",
+            "latitude":"60.205468",
+            "longitude":"16.784042"
+        },
+
+			{
+            "namn": "1",
+            "latitude":"60.209349",
+            "longitude":"16.784213"
+        },
+
+			{
+            "namn": "1",
+            "latitude":"60.209775",
+            "longitude":"16.788848"
+        },
+    ]
+}

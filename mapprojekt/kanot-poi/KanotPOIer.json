@@ -1,0 +1,231 @@
+{
+    "status": "OK",
+ 	"intresse": [
+        {
+			 "x": "16.847813",
+			 "y": "60.219227",
+            "title": "Brattnäset",
+			 "name": "Rastplats",
+            "information": "Här kan man lägga till och ta en paus. Rastplats med vindskydd.",
+            "bild": "brattnaset.jpg"
+        },
+        {
+			"x": "16.814736",
+			"y": "60.238677",
+            "title": "Bårbyhällan",
+  			"name": "Rastplats",
+            "information": "Vindskydd och Rastplats. Svår angöring med kajak.",
+            "bild":"barbyhallan.jpg"
+        },
+        {
+			"x": "16.801658",
+			"y": "60.177689",
+            "title": "Båtsportsklubben",
+			"name": "Badplats",
+            "information": "Utgångspunkt för båtsportklubben.",
+            "bild": "batsportklubben.jpg"
+        },
+        {
+			"x": "16.791154",
+			"y": "60.236701",
+            "title": "Dragsheden",
+			"name": "Badplats",
+            "information": "Badplats med grusbotten.",
+            "bild": "dragsheden.jpg"
+        },
+        
+        {
+			"x": "16.748013",
+ 			"y": "60.197745",
+            "title": "Göknäset",
+			"name": "Rastplats",
+            "information": "Rastplats göknäset, anläggning möjlig. 6 kanoter på land.",
+            "bild":"goknaset.jpg"
+        },
+		 
+		{
+			"x": "16.788910",
+			"y": "60.209724",
+            "title": "Sandön",
+			"name": "Rastplats",
+            "information":"Större Ö med badmöjligheter. Övernattning i tält tillåtet. Vindskydd och grillplats finns.",
+            "bild":"sandon.jpg"
+        },
+ 		
+		{
+			"x": "16.849755",
+			"y": "60.212219",
+            "title": "Skekarsbo",
+			"name": "Rastplats",
+            "information":"Här finns badmöjligheter, vindskydd, toalett samt låg brygga.",
+            "bild":"skekarsbo.jpg"
+        },
+ 
+		{
+			"x": "16.796916",
+			"y": "60.216802",
+            "title": "Strångnäs",
+			"name": "Badplats",
+            "information":"badstrand med sandbotten.",
+            "bild":"strangnas.jpg"
+        },
+       
+		 {
+			"x": "16.765992",
+ 			"y": "60.172702",
+            "title": "Östa Camping",
+			"name": "Rastplats",
+            "information":"Campingplats med badmöjligheter vid sandstrand.",
+            "bild":"camping.jpg"
+        },
+
+		 {
+			"x": "16.791122",
+		 	"y": "60.173351",
+            "title": "Östa norr",
+			"name": "Badplats",
+            "information":"Badplats/rasplats med sandstrand och vindskydd. Toalett finns.",
+            "bild":"ostanorr.jpg"
+        },
+
+		 {
+			"x": "16.785071",
+			"y": "60.176483",
+            "title": "Östa väst",
+			"name": "Badplats",
+            "information":"Badplats/Rastplats med sandstrand och vindskydd.",
+            "bild":"ostavast.jpg"
+        },
+		{
+            "x": "16.885128",
+			"y": "60.287094",
+			"title": "Gysinge",
+			"name": "Badplats",
+            "information":"Badplats Gysinge. Större Badplats med brygga.",
+            "bild":"gysinge.jpg"
+        },
+        {
+			"x": "16.880171",
+			"y": "60.286982",
+            "title": "Café Udden",
+		    "name": "Rastplats",
+            "information":"Café med uteservering",
+            "bild":"cafeudden.jpg"
+        },
+        {
+			"x": "16.805992",
+			"y": "60.281196",
+            "title": "Edsviken",
+			"name": "Badplats",
+            "information":"Sandstrand med anknytning till Multiadventures som erbjuder guidade turer via kanot.",
+            "bild":"edsviken.jpg"
+        },
+        {
+			"x": "16.836784",
+			"y": "60.261745",
+            "title": "Gärdsvekarna",
+			"name": "Rastplats",
+            "information":"Rastplats, landstigning ca 150m söder om stugan.",
+            "bild":"gardsvekarna.jpg"
+        },
+        {
+			"x":"16.794437",
+			"y":"60.253702",
+            "title": "Ista",
+            "name":"Badplats",
+            "information":"Liten Sandstrand.",
+			"bild":"ista.jpg"
+        },
+        
+        {
+			"x": "16.808814",
+			"y": "60.262240",
+            "title": "Karlholm",
+			"name": "Rastplats",
+            "information": "Rastplats karlholm, angöring sker bäst på öns östra sida.",
+            "bild": "karlholm.jpg"
+      
+        },
+		{
+            "x": "17.023026",
+			"y": "60.363363",
+			"title": "Ögården",
+			"name": "Badplats",
+            "information":"Badplats Ögården. Större badstrand med sandbotten.",
+            "bild":"ogarden.jpg"
+        },
+        {
+			"x": "17.056768",
+			"y": "60.345797",
+            "title": "Gnupe",
+			"name": "Badplats",
+            "information":"Gnupe, liten Badplats med stenbotten.",
+            "bild":"gnupe.jpg"
+        },
+        {
+			"x": "17.037220",
+			"y": "60.298647",
+            "title": "Hade",
+			"name": "Badplats",
+            "information":"Badplats med grusbotten.",
+            "bild":"hade.jpg"
+        },
+        {
+			"x": "17.032853",
+			"y": "60.319739",
+            "title": "Korsnäset",
+			"name": "Badplats",
+            "information": "Badplats med sandbotten.",
+            "bild":"korsnaset.jpg"
+        },
+        {
+			"x":"17.046833",
+			"y":"60.371824",
+            "title": "Kvillanudden",
+            "name":"Badplats",
+            "information":"Badstrand med närhet till grillplats. Kvillanudden är ett naturreservat i hedesunda.",
+			 "bild":"kvillanudden.jpg"
+        },
+        
+        {
+			 "x": "17.020365",
+			 "y": "60.350155",
+            "title": "Sandnäsbadet",
+			 "name": "Badplats",
+            "information": "Större Badplats med sandbotten.",
+            "bild": "sandnasbadet.jpg"
+        },
+        {
+			 "x": "17.037241",
+			 "y": "60.312009",
+            "title": "Södra sundet",
+			 "name": "Info",
+            "information": "Södra sundet",
+            "bild": "sodrasundet.jpg"
+        },
+        {
+			 "x": "17.027328",
+			 "y": "60.371665",
+            "title": "Norra sundet",
+			 "name": "Badplats",
+            "information": "Brygga med sandbotten.",
+            "bild": "norrasundet.jpg"
+        },
+        {
+			 "x": "17.032521",
+			 "y": "60.366079",
+            "title": "Åshuvudet",
+			 "name": "Badplats",
+            "information": "Badplats med sandbotten i närhet till hedesunda hembygdsgård",
+            "bild": "ashuvudet.jpg"
+        },
+        {
+			 "x": "17.094887",
+			 "y": "60.383098",
+            "title": "Östveda",
+			 "name": "Badplats",
+            "information": "Badplats med sandbotten, närliggande brygga.",
+            "bild": "ostveda.jpg"
+        }
+    ]
+}

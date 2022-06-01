@@ -1,0 +1,84 @@
+{
+    "post":[
+		  {
+            "namn": "Brattnäset",
+            "latitude":"60.219227",
+            "longitude":"16.847813"
+        },
+		  {
+            "namn": "1",
+            "latitude":"60.225763",
+            "longitude":"16.842492"
+        },
+
+		  {
+            "namn": "2",
+            "latitude":"60.232667",
+            "longitude":"16.818631"
+        },
+
+		  {
+            "namn": "3",
+            "latitude":"60.234352",
+            "longitude":"16.815524"
+        },
+
+		  {
+            "namn": "4",
+            "latitude":"60.238452",
+            "longitude":"16.813998"
+        },
+		  {
+            "namn": "Bårbyhällan",
+            "latitude":"60.238681",
+            "longitude":"16.814740"
+        },
+
+		  {
+            "namn": "Dragsheden",
+            "latitude":"60.236502",
+            "longitude":"16.790651"
+        },
+
+		  {
+            "namn": "1",
+            "latitude":"60.232264",
+            "longitude":"16.800244"
+        },
+
+		  {
+            "namn": "2",
+            "latitude":"60.227555",
+            "longitude":"16.809342"
+        },
+
+		{
+            "namn": "3",
+            "latitude":"60.224178",
+            "longitude":"16.817144"
+        },
+
+		{
+            "namn": "4",
+            "latitude":"60.222458",
+            "longitude":"16.821292"
+        },
+
+		{
+            "namn": "5",
+            "latitude":"60.221500",
+            "longitude":"16.827044"
+        },
+
+		{
+            "namn": "6",
+            "latitude":"60.220360",
+            "longitude":"16.835819"
+        },
+		  {
+            "namn": "Brattnäset",
+            "latitude":"60.219227",
+            "longitude":"16.847813"
+        }
+    ]
+}

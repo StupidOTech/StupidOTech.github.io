@@ -1,0 +1,277 @@
+{
+    "post":[
+
+       
+		 {
+            "namn": "Göknäset",
+            "latitude":"60.197745",
+            "longitude":"16.748013"
+        },
+        
+		{
+            "namn": "1",
+            "latitude":"60.193260",
+            "longitude":"16.746164"
+        },
+
+		 {
+            "namn": "1",
+            "latitude":"60.188020",
+            "longitude":"16.754945"
+        },
+
+		{
+            "namn": "2",
+            "latitude":"60.187594",
+            "longitude":"16.768163"
+        },
+
+		{
+            "namn": "3",
+            "latitude":"60.182814",
+            "longitude":"16.773227"
+        },
+		
+		{
+            "namn": "4",
+            "latitude":"60.172911",
+            "longitude":"16.771682"
+        },
+			 {
+            "namn": "5",
+            "latitude":"60.172071",
+            "longitude":"16.768452"
+        },
+
+		 {
+            "namn": "Östa Camping",
+            "latitude":"60.172702",
+            "longitude":"16.765992"
+        },
+			 {
+            "namn": "1",
+            "latitude":"60.171633",
+            "longitude":"16.767691"
+        },
+
+			 {
+            "namn": "2",
+            "latitude":"60.171236",
+            "longitude":"16.771703"
+        },
+
+		
+		 {
+            "namn": "Östa norr",
+            "latitude":"60.173351",
+            "longitude":"16.791122"
+        },
+
+		{
+            "namn": "1",
+            "latitude":"60.173442",
+            "longitude":"16.788050"
+        },
+
+		{
+            "namn": "1",
+            "latitude":"60.175939",
+            "longitude":"16.784059"
+        },
+
+		 {
+            "namn": "Östa väst",
+            "latitude":"60.176483",
+            "longitude":"16.785071"
+        },
+
+		{
+            "namn": "1",
+            "latitude":"60.177829",
+            "longitude":"16.783259"
+        },
+
+		{
+            "namn": "1",
+            "latitude":"60.179792",
+            "longitude":"16.795784"
+        },
+
+		{
+            "namn": "1",
+            "latitude":"60.180864",
+            "longitude":"16.797867"
+        },
+
+		{
+            "namn": "1",
+            "latitude":"60.178241",
+            "longitude":"16.802959"
+        },
+
+		{
+            "namn": "1",
+            "latitude":"60.178130",
+            "longitude":"16.802888"
+        },
+
+		{
+            "namn": "1",
+            "latitude":"60.178162",
+            "longitude":"16.801708"
+        },
+        {
+            "namn": "Båtsportsklubben",
+            "latitude":"60.177689",
+            "longitude":"16.801658"
+        },
+
+		 {
+            "namn": "1",
+            "latitude":"60.177592",
+            "longitude":"16.802623"
+        },
+		 {
+            "namn": "2",
+            "latitude":"60.177721",
+            "longitude":"16.803136"
+        },
+
+		 {
+            "namn": "3",
+            "latitude":"60.180394",
+            "longitude":"16.802664"
+        },
+        {
+            "namn": "4",
+            "latitude":"60.188435",
+            "longitude":"16.795806"
+        },
+        {
+            "namn": "5",
+            "latitude":"60.206521",
+            "longitude":"16.789942"
+        },
+        {
+            "namn": "1",
+            "latitude":"60.209162",
+            "longitude":"16.797395"
+        },
+        {
+            "namn": "1",
+            "latitude":"60.211844",
+            "longitude":"16.813778"
+        },
+        {
+            "namn": "1",
+            "latitude":"60.213933",
+            "longitude":"16.841033"
+        },
+        {
+            "namn": "Skekarsbo",
+            "latitude":"60.212219",
+            "longitude":"16.849755"
+        },
+        {
+            "namn": "1",
+            "latitude":"60.217503",
+            "longitude":"16.846651"
+        },
+        {
+            "namn": "Brattnäset",
+            "latitude":"60.219227",
+            "longitude":"16.847813"
+        },
+        {
+            "namn": "1",
+            "latitude":"60.227460",
+            "longitude":"16.838630"
+        },
+        {
+            "namn": "2",
+            "latitude":"60.233259",
+            "longitude":"16.815062"
+        },
+        {
+            "namn": "3",
+            "latitude":"60.238458",
+            "longitude":"16.813646"
+        },
+        {
+            "namn": "Bårbyhällan",
+            "latitude":"60.238681",
+            "longitude":"16.814740"
+        },
+        {
+            "namn": "Dragsheden",
+            "latitude":"60.236704",
+            "longitude":"16.791152"
+        },
+        {
+            "namn": "1",
+            "latitude":"60.224685",
+            "longitude":"16.816541"
+        },
+        {
+            "namn": "2",
+            "latitude":"60.220252",
+            "longitude":"16.814867"
+        },
+        {
+            "namn": "3",
+            "latitude":"60.215827",
+            "longitude":"16.807637"
+        },
+        {
+            "namn": "4",
+            "latitude":"60.215997",
+            "longitude":"16.798539"
+        },
+        {
+            "namn": "Strångnäs",
+            "latitude":"60.216802",
+            "longitude":"16.796916"
+        },
+        {
+            "namn": "1",
+            "latitude":"60.215692",
+            "longitude":"16.798246"
+        },
+        {
+            "namn": "2",
+            "latitude":"60.212028",
+            "longitude":"16.787213"
+        },
+        {
+            "namn": "Sandön",
+            "latitude":"60.209724",
+            "longitude":"16.788910"
+        },
+        {
+            "namn": "1",
+            "latitude":"60.206357",
+            "longitude":"16.780920"
+        },
+        {
+            "namn": "2",
+            "latitude":"60.194456",
+            "longitude":"16.778087"
+        },
+        {
+            "namn": "3",
+            "latitude":"60.192536",
+            "longitude":"16.755771"
+        },
+        {
+            "namn": "4",
+            "latitude":"60.195305",
+            "longitude":"16.748367"
+        },
+        {
+            "namn": "Göknäset",
+            "latitude":"60.197745",
+            "longitude":"16.748013"
+        }
+       
+    ]
+}

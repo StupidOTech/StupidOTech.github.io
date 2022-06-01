@@ -1,0 +1,55 @@
+{
+    "post":[
+        {
+            "namn": "Festplatsen",
+            "latitude":"60.363363",
+            "longitude":"17.023026",
+        },
+        {
+            "namn": "Gnupe",
+            "latitude":"60.345797",
+            "longitude":"17.05678",
+        },
+        {
+            "namn": "Hade",
+            "latitude":"60.298647",
+            "longitude":"17.03722",
+        },
+        {
+            "namn": "Korsnäset",
+            "latitude":"60.319739",
+            "longitude":"17.032853",
+        },
+        {
+            "namn": "Kvillanudden",
+            "latitude":"60.371824",
+            "longitude":"17.046833",
+        },
+        
+        {
+            "namn": "Sandnäsbadet",
+            "latitude":"60.350155",
+            "longitude":"17.020365",
+        },
+        {
+            "namn": "Södra sundet",
+            "latitude":"60.312009",
+            "longitude":"17.037241",
+        },
+        {
+            "namn": "Norra sundet",
+            "latitude":"60.371665",
+            "longitude":"17.027328",
+        },
+        {
+            "namn": "Åshuvudet",
+            "latitude":"60.366079",
+            "longitude":"17.032521",
+        },
+        {
+            "namn": "Östveda",
+            "latitude":"60.383098",
+            "longitude":"17.094887",
+        }
+    ]
+}
