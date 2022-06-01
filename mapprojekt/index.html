@@ -10,13 +10,13 @@
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
     <link rel="stylesheet" href="http://js.arcgis.com/3.39/dijit/themes/claro/claro.css">
     <link rel="stylesheet" href="http://js.arcgis.com/3.39/esri/css/esri.css">
-    <link rel="stylesheet" href="css/popup.css">
-    <link rel="stylesheet" href="css/mainbody.css">
+    <link rel="stylesheet" href="css/popupt.css">
+    <link rel="stylesheet" href="css/mainbodyt.css">
     <script src="http://js.arcgis.com/3.39/"></script>
-    <script src="func.js"></script>
+    <script src="funct.js"></script>
     <script src="javascript/elev.js"></script>
-    <script src="tidigareKod/gemensamKunskap.js"></script>
-    <script src="gemensamNyKod/nyKod.js"></script>
+    <script src="tidigareKod/gemensamKunskapt.js"></script>
+    <script src="gemensamNyKod/nyKodt.js"></script>
     <style>
         html,
         body,
@@ -31,7 +31,9 @@
 </head>
 
 <body class="claro">
+    
     <div id="menubar">
+      
         <div class="dropdown">
             <button class="dropvandring">Vandring/Cykelleder</button>
             <div class="dropdown-content">
@@ -92,31 +94,27 @@
             <button class="dropcykel">Slingor</button>
             <div class="dropdown-content">
                 <label class="container">Visa/dölj
-                    <input type="checkbox" value="#" onclick="visible(this)" checked>
+                    <input type="checkbox" id="hideE" value="#" onclick="hideAllE(this)" checked>
                     <span class="checkmark"></span>
                 </label>
-                <label class="container">Slinga - 1
-                    <input type="checkbox" value="11" onclick="visible(this)" checked>
+                <label class="container">Slinga 1
+                    <input type="checkbox" id="hideE" value="11" onclick="visible(this)" checked>
                     <span class="checkmark"></span>
                 </label>
-                <label class="container">Slinga - 2
-                    <input type="checkbox" value="12" onclick="visible(this)" checked>
+                <label class="container">Slinga 2
+                    <input type="checkbox" id="hideE" value="12" onclick="visible(this)" checked>
                     <span class="checkmark"></span>
                 </label>
-                <label class="container">Slinga - 3
-                    <input type="checkbox" checked="checked">
+                <label class="container">Slinga 3
+                    <input type="checkbox" id="hideE" value="0" onclick="visiblevosa(this)" checked>
                     <span class="checkmark"></span>
                 </label>
-                <label class="container">Slinga - 4 Eleverad
-                    <input type="checkbox" value="0" onclick="visiblevosa(this)" checked>
+                <label class="container">Slinga 4
+                    <input type="checkbox" id="hideE" value="1" onclick="visiblevosa(this)" checked>
                     <span class="checkmark"></span>
                 </label>
-                <label class="container">Slinga - 5 Eleverad
-                    <input type="checkbox" value="1" onclick="visiblevosa(this)" checked>
-                    <span class="checkmark"></span>
-                </label>
-                <label class="container">Slinga - 6 Eleverad
-                    <input type="checkbox" value="2" onclick="visiblevosa(this)" checked>
+                <label class="container">Slinga 5
+                    <input type="checkbox" id="hideE" value="2" onclick="visiblevosa(this)" checked>
                     <span class="checkmark"></span>
                 </label>
             </div>
@@ -151,19 +149,19 @@
                     <span class="checkmark"></span>
                 </label>
                 <label class="container">Info
-                    <input type="checkbox" value="0" onclick="visibleInfo(this)" checked>
+                    <input type="checkbox" value="0" onclick="visibleInfo(this)" unchecked>
                     <span class="checkmark"></span>
                 </label>
                 <label class="container">Rastplatser
-                    <input type="checkbox" value="0" onclick="visibleRastplats(this)" checked>
+                    <input type="checkbox" value="0" onclick="visibleRastplats(this)" unchecked>
                     <span class="checkmark"></span>
                 </label>
                 <label class="container">Matplatser
-                    <input type="checkbox" value="0" onclick="visibleMatplats(this)" checked>
+                    <input type="checkbox" value="0" onclick="visibleMatplats(this)" unchecked>
                     <span class="checkmark"></span>
                 </label>
                 <label class="container">Badplatser
-                    <input type="checkbox" value="0" onclick="visibleBadplats(this)" checked>
+                    <input type="checkbox" value="0" onclick="visibleBadplats(this)" unchecked>
                     <span class="checkmark"></span>
                 </label>
             </div>
@@ -176,16 +174,25 @@
             </div>
         </div>
     </div>
-    <div id="mapDiv">
-
+    <div id="legend">
+            
     </div>
+
+    
+    <div id="mapDiv">
+        
+    </div>
+   
     <div class="form-popup" id="myForm">
-        <form action="/action_page.php" class="form-container">
+        <!--Savedata är utbytt mot standard "/action_page.php"-->
+        <form action="/savedata.php" class="form-container">
             <h1>Ny Punkt</h1>
 
             <label for="point"><b>Koordinater</b></label>
             <input id="point" type="text" placeholder="X: (klicka på kartan) & Y: (klicka på kartan)" readonly>
-
+<!--LÄGG IN PUNKTERNA INDIVIDUELLT SÅ VI KAN ´POSTA´-->
+<!--Jag tror att det blir svårt annars,-->
+<!--Vi behöver isåfall köra regex och grejja-->
             <label for="email"><b>Typ av intressepunkt</b>
                 <br>
                 <br>
@@ -193,7 +200,7 @@
 
 
 
-                <input type="radio" id="Bad" name="testCheck" value="BadPlats">
+                <input type="radio" id="Bad" name="testCheck" value="Badplats">
                 <label for="Bad">Badplats</label><br />
 
 
@@ -219,6 +226,9 @@
                     <button type="button" class="btn cancel" onclick="closeForm()">Avbryt</button>
         </form>
     </div>
+   
+
+</body>
 
 
 </body>
