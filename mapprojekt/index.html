@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Making a map
+    </title>
+
+    <meta http-equiv="Â¨Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="http://js.arcgis.com/3.39/dijit/themes/claro/claro.css">
+    <link rel="stylesheet" href="http://js.arcgis.com/3.39/esri/css/esri.css">
+    <link rel="stylesheet" href="css/popup.css">
+    <link rel="stylesheet" href="css/mainbody.css">
+    <script src="http://js.arcgis.com/3.39/"></script>
+    <script src="func.js"></script>
+    <script src="javascript/elev.js"></script>
+    <script src="tidigareKod/gemensamKunskap.js"></script>
+    <script src="gemensamNyKod/nyKod.js"></script>
+    <style>
+        html,
+        body,
+        #mapDiv {
+            padding: 0px;
+            margin: 0px;
+            height: 100%;
+        }
+    </style>
+
+
+</head>
+
+<body class="claro">
+    <div id="menubar">
+        <div class="dropdown">
+            <button class="dropvandring">Vandring/Cykelleder</button>
+            <div class="dropdown-content">
+                <label class="container">Visa/dölj
+                    <input type="checkbox" value="VD" onclick="hideAll(this)" checked>
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container">Etapp - 1
+                    <input type="checkbox" id="hide" value="0" onclick="visible(this)" checked>
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container">Etapp - 2
+                    <input type="checkbox" id="hide" value="1" onclick="visible(this)" checked>
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container">Etapp - 3
+                    <input type="checkbox" id="hide" value="2" onclick="visible(this)" checked>
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container">Etapp - 4
+                    <input type="checkbox" id="hide" value="3" onclick="visible(this)" checked>
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container">Etapp - 5
+                    <input type="checkbox" id="hide" value="4" onclick="visible(this)" checked>
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container">Etapp - 6
+                    <input type="checkbox" id="hide" value="5" onclick="visible(this)" checked>
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container">Etapp - 7
+                    <input type="checkbox" id="hide" value="6" onclick="visible(this)" checked>
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container">Etapp - 8
+                    <input type="checkbox" id="hide" value="7" onclick="visible(this)" checked>
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container">Etapp - 9
+                    <input type="checkbox" id="hide" value="8" onclick="visible(this)" checked>
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container">Etapp - 10
+                    <input type="checkbox" id="hide" value="9" onclick="visible(this)" checked>
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container">Etapp - 11
+                    <input type="checkbox" id="hide" value="10" onclick="visible(this)" checked>
+                    <span class="checkmark"></span>
+                </label>
+
+            </div>
+        </div>
+
+
+        <div class="dropdown">
+            <button class="dropcykel">Slingor</button>
+            <div class="dropdown-content">
+                <label class="container">Visa/dölj
+                    <input type="checkbox" value="#" onclick="visible(this)" checked>
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container">Slinga - 1
+                    <input type="checkbox" value="11" onclick="visible(this)" checked>
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container">Slinga - 2
+                    <input type="checkbox" value="12" onclick="visible(this)" checked>
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container">Slinga - 3
+                    <input type="checkbox" checked="checked">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container">Slinga - 4 Eleverad
+                    <input type="checkbox" value="0" onclick="visiblevosa(this)" checked>
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container">Slinga - 5 Eleverad
+                    <input type="checkbox" value="1" onclick="visiblevosa(this)" checked>
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container">Slinga - 6 Eleverad
+                    <input type="checkbox" value="2" onclick="visiblevosa(this)" checked>
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+        </div>
+
+
+
+        <div class="dropdown">
+            <button class="dropkanot">Kanotleder</button>
+            <div class="dropdown-content">
+                <label class="container">Färnebofjärden
+                    <input type="checkbox" value="0" onclick="visibleKanot(this)" checked>
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container">Gysinge
+                    <input type="checkbox" value="1" onclick="visibleKanot(this)" checked>
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container">Hedesundafjärden
+                    <input type="checkbox" value="2" onclick="visibleKanot(this)" checked>
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+        </div>
+
+
+        <div class="dropdown">
+            <button class="dropkanot">Intressepunkter</button>
+            <div class="dropdown-content">
+                <label class="container">Visa/dölj
+                    <input type="checkbox" value="#" onclick="visible(this)" checked>
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container">Info
+                    <input type="checkbox" value="0" onclick="visibleInfo(this)" checked>
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container">Rastplatser
+                    <input type="checkbox" value="0" onclick="visibleRastplats(this)" checked>
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container">Matplatser
+                    <input type="checkbox" value="0" onclick="visibleMatplats(this)" checked>
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container">Badplatser
+                    <input type="checkbox" value="0" onclick="visibleBadplats(this)" checked>
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+        </div>
+
+
+        <div class="dropdown">
+            <button class="verktyg" type="button" onclick="openForm()">Skapa POI</button>
+            <div class="dropdown-content">
+            </div>
+        </div>
+    </div>
+    <div id="mapDiv">
+
+    </div>
+    <div class="form-popup" id="myForm">
+        <form action="/action_page.php" class="form-container">
+            <h1>Ny Punkt</h1>
+
+            <label for="point"><b>Koordinater</b></label>
+            <input id="point" type="text" placeholder="X: (klicka på kartan) & Y: (klicka på kartan)" readonly>
+
+            <label for="email"><b>Typ av intressepunkt</b>
+                <br>
+                <br>
+
+
+
+
+                <input type="radio" id="Bad" name="testCheck" value="BadPlats">
+                <label for="Bad">Badplats</label><br />
+
+
+
+                <input id="Rastplats" type="radio" name="testCheck" onclick="" value="Rastplats">
+                <label for="Rastplats">Rastplats</label><br />
+
+
+                <input id="Matplats" type="radio" name="testCheck" onclick="" value="Matplats">
+                <label fo="Matplats">Matplats</label><br />
+                
+               
+                    <input id="Info" type="radio" name="testCheck" onclick="" value="Info">
+                    <label for="Info">Info</label><br />
+
+                <br>
+
+                <label for="psw"><b>Beskrivning</b></label>
+                <input id="info" type="text" placeholder="Beskrivning av Intressepunkt">
+
+
+                    <button type="button" class="btn" onclick="savePOI()">Lägg till</button>
+                    <button type="button" class="btn cancel" onclick="closeForm()">Avbryt</button>
+        </form>
+    </div>
+
+
+</body>
+
+</html>
