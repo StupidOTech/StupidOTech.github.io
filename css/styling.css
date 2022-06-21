@@ -1,0 +1,520 @@
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+:root {
+    --color-text: rgb(79, 13, 133);
+    --color-primary: red;
+    --color-accent: green;
+    --grad-bw: linear-gradient(to right,
+            white,
+            black);
+    --grad: linear-gradient(45deg,
+            white,
+            ghostwhite,
+            seashell,
+            antiquewhite,
+            blanchedalmond,
+            dimgray);
+
+    --grad-rev: linear-gradient(45deg,
+            dimgray,
+            blanchedalmond,
+            antiquewhite,
+            seashell,
+            ghostwhite,
+            white);
+
+
+    --grad-full: linear-gradient(to right,
+            dimgray,
+            blanchedalmond,
+            antiquewhite,
+            seashell,
+            ghostwhite,
+            white,
+            ghostwhite,
+            seashell,
+            antiquewhite,
+            blanchedalmond,
+            dimgray);
+
+    /*
+    --fontfam-title: "dinfont", 'fallback';
+    --fontfam-annat:;
+    --fontfam-logo*/
+}
+
+html {
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    color: var(--color-text);
+    font-size: 1.125rem;
+}
+
+body {
+    margin: 0;
+}
+
+img {
+    display: block;
+}
+
+/*default för sektioner*/
+section {
+    padding: 3em 1em;
+}
+
+.banner {
+    padding: 0;
+}
+
+.banner__box {
+    width: 100%;
+    height: 6rem;
+    background: var(--grad);
+    padding: 0;
+    /*lägg in animation och linear gradient*/
+}
+
+.banner__box_rev {
+    width: 100%;
+    height: 6rem;
+    background: var(--grad-rev);
+    padding: 0;
+    /*lägg in animation och linear gradient*/
+}
+
+
+/*Typography*/
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+}
+
+h2,
+h3 {
+    /*använd fontfam från root*/
+    line-height: 0.8;
+    letter-spacing: 1px;
+    /*kanske inte behövs*/
+
+}
+
+h1 {
+    font-size: 3rem;
+    /*använd fontfam från root*/
+    line-height: 0.8;
+}
+
+p {
+    margin-bottom: 0.85em;
+}
+
+.logo-content {
+    padding: 2em;
+    text-align: center;
+    margin-bottom: 1em;
+
+}
+
+.fancy-link {
+    text-decoration: none;
+    font-size: 2em;
+    position: relative;
+    color: blanchedalmond;
+}
+
+.fancy-link span {
+    color: whitesmoke;
+}
+
+.fancy-link:hover {
+    color: burlywood;
+}
+
+.fancy-link:hover span {
+    color: dimgray;
+}
+
+
+.fancy-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 3px;
+    background-color: blanchedalmond;
+
+    transform: scaleX(0);
+    /*kan kontrollera skalan"storleken på linjen"*/
+    transform-origin: right;
+    /*nu startar(om det står vänster de
+    på vänster istället för mitten*/
+    transition: transform 250ms ease-in;
+}
+
+.fancy-link:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+
+}
+
+
+
+/*Navigation*/
+
+header {
+    padding: 1em 0 2em;
+    /*background-image: var(--grad-full);*/
+    background-color: black;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+
+
+}
+
+nav a {
+    display: inline-block;
+    padding: 0.5em;
+    text-decoration: none;
+    color: antiquewhite;
+
+}
+
+nav a span {
+    color: whitesmoke;
+}
+
+
+nav a:hover,
+nav a:focus {
+    color: burlywood;
+    text-decoration: underline;
+}
+
+
+nav a:hover span,
+nav a:focus span {
+    color: dimgray;
+    text-decoration: underline;
+}
+
+/* buttons */
+
+/*Homepage styles*/
+
+.intro {
+    background-color: whitesmoke;
+    /*om bild ej fungerar + hjälper multiply blend*/
+    background-image: url(../bilder/blw.jpg);
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    /*bilden stannar kvar när man scrollar*/
+    background-size: cover;
+    /*störrescreen?*/
+    color: antiquewhite;
+    /*text-align: center;*/
+    padding: 15vh 1em;
+    text-align: center;
+}
+
+.olika {
+    color: seashell;
+}
+
+.intro__slagord:hover {
+    color: burlywood;
+}
+
+.intro__slagord:hover span {
+    color: dimgray;
+}
+
+
+.historia {
+    background-image: url(../bilder/Twins.jpg);
+    background-color: dimgray;
+    /*ändra för blenden*/
+    background-blend-mode: multiply;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+
+    /*
+     display: flex;
+    flex-direction: column;
+    gör samma sak som inget,
+    men lättare att hantera senare med media querys*/
+    text-align: center;
+    color: antiquewhite;
+    padding: 2em 0 0 0;
+    /*öka padding om historia sektion skall ha mer*/
+}
+
+.historia__intro {
+    padding: 3em 1em 1em;
+    background-color: green;
+    /* background-image: url(pepe2.png);
+    bilden läggs endast runt h2 då det är i header
+   
+    background-size: cover; kanske inte behövs?*/
+}
+
+.historia__body {
+    line-height: 1.25;
+    padding: 1em 1em 3em;
+}
+
+.teamet,
+.vem {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    /*
+     display: flex;
+    flex-direction: column;
+    gör samma sak som inget,
+    men lättare att hantera senare med media querys*/
+    text-align: center;
+    color: antiquewhite;
+    padding: 1em 0 0 0;
+
+    /*vill du ha padding bottom ändra ovanför*/
+    /*öka padding om historia sektion skall ha mer*/
+}
+
+.teamet__info {
+    color: antiquewhite;
+    padding: 1em 0 0 0;
+    /*top,right,bot,left*/
+
+}
+
+.teamet__kortteam {
+    background-color: black;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /*top: 500px;*/
+    width: 100%;
+}
+
+.teamet__kortteam__ettkort {
+    position: relative;
+    width: 250px;
+    height: 400px;
+    background: rgba(255, 255, 255, 0.05);
+    margin: 20px;
+    box-shadow: 0 0 1em rgba(255, 255, 255, 0.4);
+    border-radius: .69em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+
+}
+
+.teamet__kortteam__ettkort__innehall_bildlada {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 10px solid rgba(255, 255, 255, 0.25);
+    transition: 0.5s;
+}
+
+.teamet__kortteam__ettkort__innehall_bildlada img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.teamet__kortteam__ettkort__innehall {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+    /*text och bild*/
+    transition: 0.5s;
+    /*för hoover*/
+    color: green;
+    /*h3 färgen ändras här*/
+}
+
+.teamet__kortteam__ettkort__innehall_innehalsslada h3 {
+    color: blanchedalmond;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    margin: 20px 0 10px;
+    line-height: 1.1em;
+}
+
+
+.teamet__kortteam__ettkort__innehall_innehalsslada h3 span {
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: initial;
+}
+
+.teamet__kortteam__ettkort__social {
+
+    position: absolute;
+    bottom: 50px;
+    display: flex;
+    /*ordna så ikonerna hamnar i centrum
+      just nu unclrea
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+   
+    
+    */
+}
+
+.teamet__kortteam__ettkort__social li {
+    list-style: none;
+    margin: 0 10px;
+    transform: translateY(40px);
+    transition: 0.5s;
+    opacity: 0;
+    transition-delay: calc(0.1s * var(--i));
+    /*ordna så ikonerna hamnar i centrum*/
+
+}
+
+.teamet__kortteam__ettkort:hover .teamet__kortteam__ettkort__social li {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.teamet__kortteam__ettkort:hover .teamet__kortteam__ettkort__innehall_bildlada {
+    border: 10px solid rgba(255, 235, 205, .75);
+}
+
+.teamet__kortteam__ettkort:hover .teamet__kortteam__ettkort__innehall_innehalsslada h3 {
+    color: burlywood;
+}
+
+
+.malochvikt {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    /*
+     display: flex;
+    flex-direction: column;
+    gör samma sak som inget,
+    men lättare att hantera senare med media querys*/
+    text-align: center;
+    color: whitesmoke;
+    padding: 1em 0 0 0;
+    /*vill du ha padding bottom ändra ovanför*/
+    line-height: 1em;
+    /*öka padding om historia sektion skall ha mer*/
+}
+
+.malochvikt__container h2 {
+    color: burlywood;
+}
+
+.malochvikt__container h3 {
+    color: antiquewhite;
+    padding: 1em 0 0.5em 0;
+}
+
+footer {
+    background: #333;
+    padding: 3em 1em;
+    color: antiquewhite;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    /*justify-content: center;
+    /*istlället för flex i footer nav*/
+}
+
+footer a {
+    color: inherit;
+}
+
+.footer-nav {
+    list-style: none;
+    /*display: flex;
+    flex-wrap: wrap;*/
+
+}
+
+.footer-nav a {
+    padding: 0.75em;
+    text-decoration: none;
+}
+
+.footer-nav a:hover {
+    text-decoration: underline;
+}
+
+.footer-social {
+    list-style: none;
+}
+
+
+@media only screen and (min-width: 870px) {
+    .teamet__kortteam__ettkort {
+        width: 300px;
+    }
+}
+
+@media only screen and (min-width: 967px) {
+    .intro {
+        padding: 15vh 5em;
+    }
+}
+
+@media only screen and (min-width: 1111px) {
+    .intro {
+        padding: 15vh 8em;
+    }
+}
+
+@media only screen and (min-width: 1201px) {
+    .intro {
+        padding: 15vh 12em;
+    }
+}
+
+@media only screen and (min-width: 1360px) {
+    .intro {
+        padding: 15vh 3em;
+    }
+
+    nav a {
+        font-size: 2em;
+    }
+}
